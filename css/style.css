@@ -79,8 +79,7 @@
   #front-text {
     padding-top: 10%;
     height: 50vh;
-    background-image: url(../img/img3-foreground.png);
-    background-size: cover;
+    background-image: url(../img/img3-foreground.png); background-size: cover;
   }
 
   #front-image {
