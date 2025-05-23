@@ -71,15 +71,18 @@
 
 @media (max-width: 640px) {
   h1 {
-    font-size: 1.5rem !important;
+    font-size: 2.0rem !important;
   }
   /* Hapus display none supaya logo muncul */
   /* #front-image { display: none; } */
   
   #front-text {
-    padding-top: 10%;
-    height: 50vh;
-    background-image: url(../img/img3-foreground.png); background-size: cover;
+    padding-top: 50%;
+    height: 100vh;
+    background-image: url(../img/img3-foreground.png);
+    background-size: 100% 100%; /* atau 'contain', 'cover', sesuai kebutuhan */
+    background-position: center;
+    background-repeat: auto;
   }
 
   #front-image {
