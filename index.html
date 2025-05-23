@@ -405,6 +405,28 @@
         <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
         action="https://script.google.com/macros/s/AKfycbznW_nMFjCr5N9TnT7rqQ2rSJyu885lIDidHQT35OtYjVQS3vTni34lUBAPxmn3Wm0/exec"
         id="my-form">
+        <div class="col-md-10 col-12 mx-2" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="2500">
+          <div class="card bg-fee rounded-3 p-3">
+            <form action="" method="post">
+              <div class="mb-3">
+                <input type="text" name="nama" placeholder="Nama" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <textarea name="ucapan" placeholder="Ucapan" rows="4" class="form-control" required></textarea>
+              </div>
+              <div class="mb-3">
+                <select name="konfirmasi" class="form-select" required>
+                  <option disabled selected>Konfirmasi Kehadiran</option>
+                  <option value="Hadir">Hadir</option>
+                  <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+              </div>
+              <div class="mb-3 text-start">
+                <button type="submit" class="btn bg-berem btn-outline-secondary text-white">Kirim</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </form>
       </div>
     </div>
